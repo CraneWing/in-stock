@@ -1,0 +1,37 @@
+{
+  "name": "in-stock",
+  "description": "Free Code Camp full stack challenge to build a stock data application",
+  "main": "server.js",
+  "authors": [
+    "V Mielke"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "flat-ui": "^2.3.0",
+    "typicons.font": "typicons#^2.0.7",
+    "moment": "^2.13.0",
+    "angular-moment": "^0.10.3",
+    "Chart.js": "^2.1.6",
+    "spin.js": "^2.3.2",
+    "angular-spinner": "^0.8.1",
+    "angular-chart.js": "1.0.0-beta1",
+    "angular-socket-io": "^0.7.0"
+  },
+  "resolutions": {
+    "moment": ">=2.8.0 <2.11.0",
+    "angular": ">=1.2.0 <1.5.0",
+    "Chart.js": "~1.1.1"
+  }
+}

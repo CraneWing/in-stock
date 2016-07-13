@@ -1,0 +1,92 @@
+/****** general ******/
+.well {
+	background-color: #ecf0f1;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/****** navbar ******/
+
+.navbar {
+	background-color: #2980b9;
+}
+
+.nav-center-logo {
+	position: absolute;
+	display: inline-block;
+  top: 0;
+  left: 50%;
+  height: 50px;
+  width: 200px; 
+  margin-left: -100px;
+  margin-top: 8px;
+  text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+/****** stock area ******/
+.btn {
+	cursor: pointer;
+}
+
+#tagline {
+	text-align: center;
+	font-size: 24px;
+	margin-top: -10px;
+}
+
+#stock-toggle {
+	padding: 15px 0 10px 0;
+	list-style: none;
+}
+
+#stock-toggle li {
+	display: inline-block;
+	float: left;
+	margin-left: 3px;
+}
+
+#date-span {
+	float: right;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+/**** search form ***/
+#search-form {
+	float: right;
+	padding: 15px 0;
+}
+
+#search-form input {
+	border-color: #2980b9;
+}
+
+#search-form .btn {
+	background-color: #2980b9;
+	color: #fff;
+	border-color: #2980b9;
+	font-size: 24px;
+}
+
+/****** cards *******/
+.card {
+	margin: 15px;
+}
+
+.card p {
+	padding: 20px 10px 10px 10px;
+}
+
+.card p span {
+	cursor: pointer;
+	font-size: 20px;
+	float: right;
+}
+
+.card p span:hover {
+	opacity: 0.5;
+}

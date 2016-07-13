@@ -1,0 +1,29 @@
+{
+  "name": "in-stock",
+  "version": "0.0.2",
+  "description": "Free Code Camp full stack challenge to build a realtime stock data application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "url": "https://in-stock-cranewing.c9users.io/",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/CraneWing/in-stock"
+  },
+  "author": "V Mielke",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.8"
+  }
+}
