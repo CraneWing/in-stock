@@ -24,13 +24,11 @@ io.on('connection', function(socket) {
 	console.log('A connection was made!');
 	
 	socket.on('addStock', function(data) {
-		console.log(data);
 		console.log('socket.io - stock was added!');
 		io.emit('addStock', data);
 	});
 
 	socket.on('deleteStock', function(data) {
-		console.log(data);
 		console.log('socket.io - stock was deleted!');
 		io.emit('deleteStock', data);
 	});

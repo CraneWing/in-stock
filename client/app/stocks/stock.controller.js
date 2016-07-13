@@ -3,7 +3,7 @@ angular.module('stockApp')
 		function($scope, $http, StockFactory, socket) {
 			socket.on('addStock', function(data) {
 				console.log('add data in client side');
-				console.log(data);
+				// console.log(data);
 				// function to make stock chart
 				createLineChart(data.stocks, data.days);
 				$scope.loading = false;
@@ -11,7 +11,7 @@ angular.module('stockApp')
 
 			socket.on('deleteStock', function(data) {
 				console.log('delete data in client side');
-				console.log(data);
+				//console.log(data);
 				createLineChart(data.stocks, data.days);
 				$scope.loading = false;
 			});
